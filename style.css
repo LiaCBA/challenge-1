@@ -151,6 +151,10 @@ p {
   width: 445px;
 }
 
+.section-text .learn-more {
+  display: flex;
+}
+
 .section-text .learn-more p {
   display: flex;
   flex-direction: column;
@@ -158,13 +162,14 @@ p {
   font-weight: 900;
   font-size: 15px;
   color: var(--primary-color);
-  position: relative;
+  position: absolute;
 }
 
 .section-text .learn-more img {
   max-width: 137px;
   height: 10px;
-  position: absolute;
+  position: relative;
+  margin-top: 15px;
   z-index: -1;
 }
 
