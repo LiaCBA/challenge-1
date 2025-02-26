@@ -1,0 +1,347 @@
+:root {
+  --background-color: white;
+  --primary-color: #24303e;
+  --secondary-color: #808397;
+  --third-color: #a7aaad;
+  --sect-h2-color: #24554a;
+  --sect-p-color: #3e7467;
+  --orange-h2-color: #225a73;
+  --orange-p-color: #19536c;
+  --testimonial-text-color: #5b636d;
+  --footer-bg-color: #90d4c6;
+  --footer-links-color: #458d7e;
+  --text-color-white: white;
+  --button-text-color: #24303e;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--secondary-color);
+  width: 445px;
+}
+
+.header-main-container {
+  width: 100%;
+  background-image: url("../images/header-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+}
+
+.header-main-container .header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 34px 40px;
+}
+
+.header-container .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container ul {
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  gap: 47px;
+  list-style: none;
+  color: var(--text-color-white);
+}
+
+.button-contact {
+  width: 140px;
+  height: 56px;
+  border-radius: 28px;
+  margin-left: 47px;
+  border-style: none;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+.header-main-container .hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 34px 40px;
+}
+
+.header-main-container .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.hero-section h1 {
+  font-family: "Fraunces", serif;
+  letter-spacing: 8.75px;
+  font-size: 56px;
+  font-weight: 900;
+  margin-top: 105px;
+  color: var(--text-color-white);
+  text-align: center;
+}
+
+.hero-section a img {
+  width: 30px;
+  height: 107px;
+}
+
+/* section */
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-main {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-main .image {
+  max-width: 720px;
+  height: 600px;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  gap: 32px;
+}
+
+.section-text h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
+.section-text p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--secondary-color);
+  width: 445px;
+}
+
+.section-text .learn-more p {
+  display: flex;
+  flex-direction: column;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.section-text .learn-more img {
+  max-width: 137px;
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+}
+
+/* cherry and orange */
+
+.sect-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sect-main {
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.sect-main .image {
+  max-width: 720px;
+  height: 600px;
+}
+
+.sect-text {
+  display: flex;
+  text-align: center;
+}
+
+.sect-text h2,
+.sect-text p {
+  position: absolute;
+}
+
+.sect-text h2 {
+  margin: 398px 0 0 250px;
+  font-size: 28px;
+  color: var(--sect-h2-color);
+}
+
+.sect-text p {
+  margin: 460px 0 0 200px;
+  line-height: 27px;
+  width: 339px;
+  font-size: 16px;
+  color: var(--sect-p-color);
+}
+
+/* orange part */
+
+.orange-text {
+  display: flex;
+  text-align: center;
+}
+
+.orange-text h2,
+.orange-text p {
+  position: absolute;
+}
+
+.orange-text h2 {
+  margin: 398px 0 0 260px;
+  font-size: 28px;
+  color: var(--orange-h2-color);
+}
+
+.orange-text p {
+  margin: 460px 0 0 200px;
+  line-height: 27px;
+  width: 339px;
+  font-size: 16px;
+  color: var(--orange-p-color);
+}
+
+/* client testimonials */
+
+.client-testimonals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 777px;
+}
+
+.client-testimonals .client-title h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--third-color);
+  font-family: "Fraunces", serif;
+  letter-spacing: 5px;
+}
+
+.costumers {
+  display: flex;
+  margin-top: 81px;
+  gap: 30px;
+}
+
+.client-img {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+.client p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 32px;
+  width: 350px;
+  margin: 0 auto;
+  color: var(--testimonial-text-color);
+}
+
+.client-container {
+  display: flex;
+  text-align: center;
+  padding-top: 68px;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.client-container h5 {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--primary-color);
+  font-family: "Fraunces", serif;
+}
+
+.client-container p {
+  width: 203px;
+  padding-left: 75px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--third-color);
+}
+
+/* footer */
+
+.footer-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--footer-bg-color);
+}
+
+.sunnyside-logo {
+  margin: 67px 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--footer-bg-color);
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  padding-top: 40px;
+  gap: 57px;
+  font-family: "Barlow", sans-serif;
+  color: var(--footer-links-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.soc-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 28px;
+  height: 100px;
+}
